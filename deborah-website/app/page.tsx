@@ -19,6 +19,7 @@ export default function Home() {
           <p className="text-white text-2xl text-center ">
             Therapy + Counseling Services
           </p>
+          <p className="text-white text-2xl text-center ">Ithaca, New York</p>
         </div>
       </div>
       <div className="p-10">
@@ -29,8 +30,8 @@ export default function Home() {
               src="/images/deborah.jpeg"
               alt="A headshot of Deborah smiling"
               layout="fill"
-              objectFit="cover" // Adjust as needed to control how the image fits within its container
-              className="rounded border-2" // Optional: Adds rounded corners to the image
+              objectFit="cover" 
+              className="rounded border-2" 
             />
           </div>
           <div className="flex-grow">
@@ -67,7 +68,41 @@ export default function Home() {
         </div>
       </div>
       <div className="p-10">
-        <h2 className="mb-4 text-3xl">Schedule</h2>
+        <h2 className=" text-3xl">Get Started</h2>
+      </div>
+      <div className="relative" style={{ height: "95vh" }}>
+        <Image
+          src="/images/path.jpeg"
+          alt="Photography of a path on a cloudless day"
+          layout="fill"
+          objectFit="cover"
+          className="brightness-50"
+        />
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center">
+          <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-md p-6 m-4">
+            <h2 className="text-lg font-semibold text-gray-900 mb-2">
+              Ready to take the first step?
+            </h2>
+            <p className="text-gray-700 mb-4">
+              Schedule your free, 15-minute phone consultation today. Let's
+              explore how we can work together to meet your goals.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="sms:+123456789" // Replace +123456789 with your actual phone number
+                className="inline-flex items-center justify-center px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                Text
+              </a>
+              <a
+                href="mailto:402nocay@gmail.com?subject=Free 15-Minute Consultation"
+                className="inline-flex items-center justify-center px-4 py-2 text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+              >
+                Email
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
