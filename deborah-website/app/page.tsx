@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,10 +8,12 @@ export default function Home() {
         <Image
           src="/images/office.jpeg"
           alt="Deborah's office"
-          layout="fill"
-          objectFit="cover"
           className="brightness-50"
-        />
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "cover"
+          }} />
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center">
           <h1 className="text-white text-5xl text-center p-4">
             Deborah Berman, LCSW
@@ -29,10 +31,12 @@ export default function Home() {
             <Image
               src="/images/deborah.jpeg"
               alt="A headshot of Deborah smiling"
-              layout="fill"
-              objectFit="cover" 
-              className="rounded border-2" 
-            />
+              className="rounded border-2"
+              fill
+              sizes="100vw"
+              style={{
+                objectFit: "cover"
+              }} />
           </div>
           <div className="flex-grow">
             <p className="mb-4">
@@ -74,10 +78,12 @@ export default function Home() {
         <Image
           src="/images/path.jpeg"
           alt="Photography of a path on a cloudless day"
-          layout="fill"
-          objectFit="cover"
           className="brightness-50"
-        />
+          fill
+          sizes="100vw"
+          style={{
+            objectFit: "cover"
+          }} />
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center">
           <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-md p-6 m-4">
             <h2 className="text-lg font-semibold text-gray-900 mb-2">
