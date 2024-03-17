@@ -75,10 +75,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="p-10">
-        <h2 className=" text-3xl">Get Started</h2>
-      </div>
-      <Section imgSrc="/images/path.jpeg" altText="Deborah's photo of a path">
+      <Section title="Get Started" imgSrc="/images/path.jpeg" altText="Deborah's photo of a path">
         <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-md p-6 m-4">
           <h2 className="text-lg font-semibold text-gray-900 mb-2">
             Ready to take the first step?
