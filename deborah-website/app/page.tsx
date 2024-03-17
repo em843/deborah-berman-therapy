@@ -13,8 +13,9 @@ export default function Home() {
           fill
           sizes="100vw"
           style={{
-            objectFit: "cover"
-          }} />
+            objectFit: "cover",
+          }}
+        />
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center">
           <h1 className="text-white text-5xl text-center p-4">
             Deborah Berman, LCSW
@@ -36,8 +37,9 @@ export default function Home() {
               fill
               sizes="100vw"
               style={{
-                objectFit: "cover"
-              }} />
+                objectFit: "cover",
+              }}
+            />
           </div>
           <div className="flex-grow">
             <p className="mb-4">
@@ -50,13 +52,14 @@ export default function Home() {
               in your life feeling more fulfilled and at peace.
             </p>
             <p className="mb-4">
-              I am a graduate of the Smith School for Social Work ('92) where
-              the majority of training was in the field under the supervision of
-              seasoned professionals. Since graduation, I have trained in
-              mindfulness, cognitive therapy, and family systems as well as many
-              other topics. I also have a special interest in learning
-              disabilities and how they affect children and families. Please see
-              other areas of the website where techniques are further explained.
+              I am a graduate of the Smith School for Social Work (&apos;92)
+              where the majority of training was in the field under the
+              supervision of seasoned professionals. Since graduation, I have
+              trained in mindfulness, cognitive therapy, and family systems as
+              well as many other topics. I also have a special interest in
+              learning disabilities and how they affect children and families.
+              Please see other areas of the website where techniques are further
+              explained.
             </p>
             <p className="mb-4">
               My life outside of the office enriches my life within it. I am an
@@ -81,7 +84,7 @@ export default function Home() {
             Ready to take the first step?
           </h2>
           <p className="text-gray-700 mb-4">
-            Schedule your free, 15-minute phone consultation today. Let's
+            Schedule your free, 15-minute phone consultation today. Let&apos;s
             explore how we can work together to meet your goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
