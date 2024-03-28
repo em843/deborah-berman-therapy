@@ -6,6 +6,7 @@ type Props = {
   imgSrc?: string;
   altText?: string;
   children: ReactNode;
+  style?: string;
 };
 
 const Section: React.FC<Props> = ({
@@ -13,6 +14,7 @@ const Section: React.FC<Props> = ({
   imgSrc = "",
   altText = "",
   children,
+  style = ""
 }) => {
   return (
     <>
@@ -23,7 +25,7 @@ const Section: React.FC<Props> = ({
             alt={altText}
             fill
             sizes="100vw"
-            className="brightness-50 bg-cover bg-center h-64 w-full"
+            className={`brightness-50 bg-cover bg-center h-64 w-full ${style}`}
             style={{
               objectFit: "cover",
             }}
