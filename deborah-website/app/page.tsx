@@ -43,39 +43,18 @@ export default function Home() {
           </div>
           <div className="flex-grow">
             <p className="mb-4">
-              The work of therapy starts even before the first session is
-              scheduled. Who will hear you? Who will understand your unique way
-              of sharing your concerns, goals, confusion, and values? Extensive
-              experience has deepened my knowledge of the human experience and
-              enriched what I have to offer. In sessions, I will listen as you
-              tell your story to understand and to help you make the next move
-              in your life feeling more fulfilled and at peace.
+            Finding a therapist can be hard. How do you know who you will be able to share your most personal feelings and experiences with? I have thirty years of experience helping people begin the process. Sometimes things work out and we continue to reach goals together. Sometimes I am helpful in clarifying who would be a good fit for a client and what their goals are. Whether you are experienced in using the therapeutic relationship or just starting to figure that out, I hope I can be useful.
             </p>
             <p className="mb-4">
-              I am a graduate of the Smith School for Social Work (&apos;92)
-              where the majority of training was in the field under the
-              supervision of seasoned professionals. Since graduation, I have
-              trained in mindfulness, cognitive therapy, and family systems as
-              well as many other topics. I also have a special interest in
-              learning disabilities and how they affect children and families.
-              Please see other areas of the website where techniques are further
-              explained.
+            I am a graduate of the Smith School for Social Work (&apos;92) where our training involved working directly with patients under the supervision of experienced professionals. Since then I have trained in many techniques and methods. Over the years, I have integrated research and practice and have taken the best from the work that I have studied. But most importantly, I have learned from the people I have worked with to listen carefully to their stories and match their needs. I look forward to hearing from you and working together to create a productive bond in therapy.
+
             </p>
             <p className="mb-4">
-              My life outside of the office enriches my life within it. I am an
-              avid gardener, I enjoy cooking, singing, and tai-chi. My
-              undergraduate major was in Art History and I have maintained an
-              interest in the arts. These interests bring me to the consulting
-              room with a freshness and openness to you as a patient. While
-              there are many techniques and schools of therapy, the foundation
-              of the process is connection, which I hope to offer you in our
-              work together. I encourage you to take that first step and
-              schedule a consultation free of charge.
             </p>
           </div>
         </div>
       </div>
-      <Section title="Get Started" imgSrc="/images/path.jpeg" altText="Deborah's photo of a path">
+      <Section title="Get Started" imgSrc="/images/path.jpeg" altText="Deborah's photo of a path" style="grayscale">
         <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-md p-6 m-4">
           <h2 className="text-lg font-semibold text-gray-900 mb-2">
             Ready to take the first step?
